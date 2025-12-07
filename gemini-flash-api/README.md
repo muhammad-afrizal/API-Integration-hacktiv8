@@ -25,10 +25,14 @@ Projek ini adalah server Node.js yang mengintegrasikan Google's Gemini 2.5 Flash
 
 ## Instalasi
 1. Clone repository ini
-2. Install dependensi: `npm install`
+2. Inisialisasi project dan install dependensi:
+   ```
+   npm init -y
+   npm install express dotenv @google/genai multer
+   ```
 3. Buat file `.env` di root direktori dan tambahkan kunci API Gemini Anda:
    ```
-   GEMINI_API_KEY=your_api_key_here
+   API_KEY=your_api_key_here
    ```
 4. Jalankan server: `node index.js`
 
